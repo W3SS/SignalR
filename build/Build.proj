@@ -93,7 +93,7 @@
     <!-- Only build the following clients if the SDK is installed -->
     <Projects Include="$(ProjectRoot)\src\Microsoft.AspNet.SignalR.Client.Portable\Microsoft.AspNet.SignalR.Client.Portable.csproj">
       <Build Condition="!$(WP8SDKInstalled)">false</Build>
-      <Platform>portable-net40+sl4+win8+wp71</Platform>
+      <Platform>portable-sl5+winRT+wp8</Platform>
       <!-- HttpClient causes issues with running FxCop on the SL5 and WP8 clients -->
       <RunFxCop>false</RunFxCop>
     </Projects>

@@ -240,6 +240,7 @@
       <Link>Resources.resx</Link>
     </EmbeddedResource>
   </ItemGroup>
+  <Import Project="..\Common\Microsoft.AspNet.SignalR.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
   <Import Project="$(SolutionDir)\build\Microsoft.Bcl.Build.targets" />
